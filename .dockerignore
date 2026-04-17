@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.py[cod]
+*.egg-info
+*.egg
+.eggs
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
+.coverage
+*.pyc
+
+# Virtual environments
+venv
+env
+.venv
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Data (runtime data should be in volumes)
+chroma_db
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Documentation
+docs/
+*.md
+!requirements.txt  # keep requirements
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Tests
+tests/
+conftest.py
+
+# Temp files
+tmp_*.txt
+*.tmp

@@ -109,8 +109,8 @@ class TestConfig:
 
     def test_config_loads(self):
         from app.core.config import config
-        assert config.llm.model == "gpt-3.5-turbo"
-        assert config.vectorstore.top_k == 4
+        assert config.llm.model == "gpt-4"  # loaded from .env
+        assert config.vectorstore.top_k == 5  # loaded from .env DEFAULT_TOP_K=5
         assert config.retriever.search_type == "hybrid"
 
     def test_config_dataclass(self):

@@ -30,10 +30,12 @@ ENV/
 .idea/
 *.swp
 *.swo
+*~
 
-# Environment
+# Environment (keep .env.example)
 .env
 .env.local
+.env.*.local
 
 # Data
 chroma_db/
@@ -42,7 +44,19 @@ data/uploads/*
 
 # Logs
 *.log
+logs/
 
-# OS
-.DS_Store
-Thumbs.db
+# Test artifacts
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+coverage/
+*.cover
+
+# Temp files
+tmp_*.txt
+*.tmp
