@@ -5,6 +5,7 @@ Gradio 可视化界面
 
 import os
 import sys
+import asyncio
 
 # 确保项目根目录在 Python 路径中
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -86,8 +87,19 @@ def chat_stream(query, history, search_type):
     try:
         full_answer = ""
         
-        # 使用 query_stream 获取流式回答
-        for token in engine.query_stream(query):
+        # 使用 asyncio 运行异步生成器
+        async def get_stream():
+            async for token in engine.query_stream(query):
+                yield token
+        
+        # 同步迭代异步生成器
+        try:
+            loop = asyncio.get_event_loop()
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+        
+        for token in loop.run_until_complete(get_stream()):
             full_answer += token
             # 实时更新显示
             history.append((query, full_answer + " ▌"))

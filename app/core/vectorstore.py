@@ -68,7 +68,8 @@ class HybridRetriever:
 
         # 1. 向量检索
         vector_results = self.vectorstore.similarity_search_with_score(query, k=vector_k)
-        vector_ranks = {id(doc.page_content): rank for rank, (doc, _) in enumerate(vector_results)}
+        # 使用文档索引作为 key，避免 id() 内存地址问题
+        vector_ranks = {idx: rank for rank, (doc, _) in enumerate(vector_results)}
 
         # 2. BM25 检索
         tokenized_query = query.split()
