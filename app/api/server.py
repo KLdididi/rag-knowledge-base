@@ -5,12 +5,15 @@ FastAPI 服务层
 
 import os
 import json
+import time
+import uuid
 from typing import Optional, List
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, UploadFile, File, Query
-from fastapi.responses import StreamingResponse
+from fastapi import FastAPI, HTTPException, UploadFile, File, Query, Request
+from fastapi.responses import StreamingResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
 from pydantic import BaseModel, Field
 
 from app.core.config import config
@@ -19,10 +22,17 @@ from app.core.splitter import TextSplitter
 from app.core.vectorstore import VectorStore
 from app.core.rag_engine import RAGEngine
 from app.agents.workflow import build_graph, GraphWorkflow
+from app.core.monitoring import (
+    get_logger, metrics, tracer, health_checker,
+    HealthStatus, HealthCheckResult
+)
 
 from langchain_openai import ChatOpenAI
 from langchain_openai import OpenAIEmbeddings
 from langchain_ollama import ChatOllama, OllamaEmbeddings
+
+# 监控日志器
+monitoring_logger = get_logger("rag-api")
 
 
 # ============ 全局实例 ============
@@ -184,6 +194,41 @@ app.add_middleware(
 )
 
 
+# ============ 监控中间件 ============
+
+@app.middleware("http")
+async def metrics_middleware(request: Request, call_next):
+    """请求指标中间件"""
+    trace_id = request.headers.get("X-Trace-ID", str(uuid.uuid4())[:8])
+    request.state.trace_id = trace_id
+    start_time = time.perf_counter()
+    
+    method = request.method
+    path = request.url.path
+    
+    # 跳过指标端点自身的监控
+    skip_metrics = path in ["/metrics", "/health/detailed", "/traces"]
+    
+    response = await call_next(request)
+    
+    duration_ms = (time.perf_counter() - start_time) * 1000
+    
+    if not skip_metrics:
+        metrics.record_request(method, path, response.status_code, duration_ms)
+        monitoring_logger.info(
+            "HTTP request",
+            method=method,
+            path=path,
+            status=response.status_code,
+            duration_ms=round(duration_ms, 2),
+            trace_id=trace_id,
+        )
+    
+    response.headers["X-Trace-ID"] = trace_id
+    response.headers["X-Response-Time"] = f"{duration_ms:.2f}ms"
+    return response
+
+
 # ============ 请求/响应模型 ============
 
 class QueryRequest(BaseModel):
@@ -251,20 +296,82 @@ async def health_check():
     )
 
 
+@app.get("/health/detailed")
+async def health_detailed():
+    """详细健康检查（包含各组件状态）"""
+    result = health_checker.check_all()
+    status_code = 200 if result["status"] == "healthy" else 503 if result["status"] == "unhealthy" else 200
+    return JSONResponse(content=result, status_code=status_code)
+
+
+@app.get("/metrics")
+async def prometheus_metrics():
+    """Prometheus 指标端点"""
+    from fastapi.responses import PlainTextResponse
+    content = metrics.export_prometheus()
+    return PlainTextResponse(content=content, media_type="text/plain")
+
+
+@app.get("/traces")
+async def recent_traces(limit: int = Query(default=10, ge=1, le=100)):
+    """最近追踪记录"""
+    traces = tracer.get_recent_traces(limit=limit)
+    return {
+        "count": len(traces),
+        "traces": traces,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+    }
+
+
+@app.get("/stats")
+async def application_stats():
+    """应用统计摘要"""
+    return {
+        "version": "2.0.0",
+        "metrics": metrics.get_summary(),
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+    }
+
+
 @app.post("/api/query", response_model=QueryResponse)
-async def query_knowledge_base(request: QueryRequest):
+async def query_knowledge_base(body: QueryRequest, http_request: Request):
     """RAG知识库查询（支持多轮对话）"""
+    start = time.perf_counter()
+    trace_id = getattr(http_request.state, "trace_id", "unknown")
     try:
         engine = get_rag_engine()
-        engine.search_type = request.search_type
-        engine.prompt_mode = request.prompt_mode
-        engine.top_k = request.top_k
+        engine.search_type = body.search_type
+        engine.prompt_mode = body.prompt_mode
+        engine.top_k = body.top_k
         result = engine.query(
-            request.query,
-            return_sources=request.return_sources,
+            body.query,
+            return_sources=body.return_sources,
+        )
+        duration_ms = (time.perf_counter() - start) * 1000
+        metrics.record_retrieval(
+            body.query, 
+            len(result.get("sources", [])), 
+            duration_ms, 
+            body.search_type
+        )
+        monitoring_logger.info(
+            "RAG query completed",
+            query=body.query[:50],
+            sources=len(result.get("sources", [])),
+            duration_ms=round(duration_ms, 2),
+            search_type=body.search_type,
+            trace_id=trace_id,
         )
         return QueryResponse(**result)
     except Exception as e:
+        duration_ms = (time.perf_counter() - start) * 1000
+        monitoring_logger.error(
+            "RAG query failed",
+            query=body.query[:50],
+            error=str(e),
+            duration_ms=round(duration_ms, 2),
+            trace_id=trace_id,
+        )
         raise HTTPException(status_code=500, detail=str(e))
 
 
