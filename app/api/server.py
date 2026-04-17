@@ -22,6 +22,7 @@ from app.core.splitter import TextSplitter
 from app.core.vectorstore import VectorStore
 from app.core.rag_engine import RAGEngine
 from app.agents.workflow import build_graph, GraphWorkflow
+from app.interview.api import router as interview_router
 from app.core.monitoring import (
     get_logger, metrics, tracer, health_checker,
     HealthStatus, HealthCheckResult
@@ -192,6 +193,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# 面试功能路由
+app.include_router(interview_router)
 
 
 # ============ 监控中间件 ============
