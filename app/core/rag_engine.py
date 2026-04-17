@@ -155,10 +155,10 @@ class RAGEngine:
             results = self.vectorstore.hybrid_search(
                 query, vector_k=retrieve_k, bm25_k=retrieve_k, top_n=retrieve_k
             )
-            docs = [doc for doc, score in results]
+            return [doc for doc, score in results]
         elif self.search_type == "mmr":
             retrieve_k = self.rerank_top_n * 3 if self.use_reranker else self.top_k
-            docs = self.vectorstore.mmr_search(query, k=retrieve_k)
+            return self.vectorstore.mmr_search(query, k=retrieve_k)
         else:
             return self.vectorstore.similarity_search(query, k=self.top_k)
 
