@@ -1,0 +1,1267 @@
+{
+  "sessions": [
+    {
+      "session_id": "d11195b0",
+      "candidate_name": "Candidate",
+      "target_position": "后端工程师",
+      "target_companies": [
+        "字节跳动",
+        "腾讯"
+      ],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.472879+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "64f2f611",
+      "candidate_name": "Candidate",
+      "target_position": "算法工程师",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.473879+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "793aad07",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.474879+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "9e4e395f",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.475879+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "7ab0a331",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.477561+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "ca7f24cb",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.479068+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "d42dd936",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.518558+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "707c0a0a",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.519347+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "29b93145",
+      "candidate_name": "Candidate",
+      "target_position": "前端",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.520659+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "b52ba80a",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.521661+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "02148fda",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.525660+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "6e96f948",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:26:19.527661+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "a0a83752",
+      "candidate_name": "Candidate",
+      "target_position": "后端工程师",
+      "target_companies": [
+        "字节跳动",
+        "腾讯"
+      ],
+      "question_ids": [
+        "beh-001",
+        "algo-003",
+        "ml-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.568037+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "8effbef0",
+      "candidate_name": "Candidate",
+      "target_position": "算法工程师",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002",
+        "algo-003",
+        "ml-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.574974+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "ec702f67",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "sys-002": "很短"
+      },
+      "follow_ups": {},
+      "scores": {
+        "sys-002": 0.0
+      },
+      "feedback": {
+        "sys-002": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.579053+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "e4a2b8ad",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-004"
+      ],
+      "current_index": 1,
+      "answers": {
+        "py-004": "这是一个关于Python的详细回答。GIL是全局解释器锁，它在同一时刻只允许一个线程执行Python字节码。这是为了保护引用计数。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "py-004": 8.7
+      },
+      "feedback": {
+        "py-004": "建议从以下角度补充：迭代器需实现 __iter__/__next__；生成器是特殊的迭代器；yield 暂停并返回值 注意准备好可能的追问。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.586128+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "3125fdcc",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "py-002": "这是一个完整的回答，涉及多个关键点。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "py-002": 2.4
+      },
+      "feedback": {
+        "py-002": "建议从以下角度补充：本质是高阶函数；不修改原函数源码；接收函数返回函数 注意准备好可能的追问。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.592129+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "cce73625",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-002",
+        "soft-001",
+        "db-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.935286+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "4eb19fd6",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-004"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.942465+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "49d003d4",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "beh-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.951961+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "7a948cab",
+      "candidate_name": "Candidate",
+      "target_position": "前端",
+      "target_companies": [],
+      "question_ids": [
+        "soft-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.958006+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "5fc78b95",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.964919+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "8323cae8",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [
+        "soft-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "soft-001": "详细且全面的回答"
+      },
+      "follow_ups": {},
+      "scores": {
+        "soft-001": 0.0
+      },
+      "feedback": {
+        "soft-001": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:17.987685+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "8095d77a",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "ml-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "ml-001": "差"
+      },
+      "follow_ups": {},
+      "scores": {
+        "ml-001": 0.0
+      },
+      "feedback": {
+        "ml-001": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:18.027530+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "42203e05",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [
+        "ind-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "ind-001": "详细且全面的回答"
+      },
+      "follow_ups": {},
+      "scores": {
+        "ind-001": 0.0
+      },
+      "feedback": {
+        "ind-001": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:28.309706+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "05b06079",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "ind-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "ind-001": "差"
+      },
+      "follow_ups": {},
+      "scores": {
+        "ind-001": 0.0
+      },
+      "feedback": {
+        "ind-001": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:28.413912+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "85f06279",
+      "candidate_name": "Candidate",
+      "target_position": "后端工程师",
+      "target_companies": [
+        "字节跳动",
+        "腾讯"
+      ],
+      "question_ids": [
+        "algo-001",
+        "ml-002",
+        "ml-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.054966+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "7e36475c",
+      "candidate_name": "Candidate",
+      "target_position": "算法工程师",
+      "target_companies": [],
+      "question_ids": [
+        "ml-002",
+        "sys-002",
+        "algo-003"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.056972+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "799cd50c",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-003"
+      ],
+      "current_index": 1,
+      "answers": {
+        "py-003": "很短"
+      },
+      "follow_ups": {},
+      "scores": {
+        "py-003": 0.0
+      },
+      "feedback": {
+        "py-003": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.059969+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "60721658",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "sys-002": "这是一个关于Python的详细回答。GIL是全局解释器锁，它在同一时刻只允许一个线程执行Python字节码。这是为了保护引用计数。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "sys-002": 8.7
+      },
+      "feedback": {
+        "sys-002": "建议从以下角度补充：Redis Lua 原子扣库存；消息队列削峰；多层限流策略 注意准备好可能的追问。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.064002+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "7d6a1803",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-005"
+      ],
+      "current_index": 1,
+      "answers": {
+        "py-005": "这是一个完整的回答，涉及多个关键点。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "py-005": 2.4
+      },
+      "feedback": {
+        "py-005": "建议从以下角度补充：__enter__/__exit__ 方法；确保资源释放，即使异常；常见：open/lock/db连接 注意准备好可能的追问。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:31:58.068006+00:00",
+      "completed_at": "2026-04-17T14:31:58.070006+00:00",
+      "total_duration_minutes": 3.3333333333333335e-05
+    },
+    {
+      "session_id": "b363a57e",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "db-001",
+        "ind-001",
+        "py-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.071007+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "96a8176e",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-003"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.074040+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "10261c98",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "py-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.076364+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "8f386257",
+      "candidate_name": "Candidate",
+      "target_position": "前端",
+      "target_companies": [],
+      "question_ids": [
+        "algo-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.078360+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "b86beaaa",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "ml-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:31:58.080362+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "367da3c3",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [
+        "ml-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "ml-001": "详细且全面的回答"
+      },
+      "follow_ups": {},
+      "scores": {
+        "ml-001": 0.0
+      },
+      "feedback": {
+        "ml-001": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:31:58.090389+00:00",
+      "completed_at": "2026-04-17T14:31:58.093389+00:00",
+      "total_duration_minutes": 5e-05
+    },
+    {
+      "session_id": "58996da2",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "beh-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "beh-001": "差"
+      },
+      "follow_ups": {},
+      "scores": {
+        "beh-001": 0.0
+      },
+      "feedback": {
+        "beh-001": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:31:58.095260+00:00",
+      "completed_at": "2026-04-17T14:31:58.097399+00:00",
+      "total_duration_minutes": 3.565e-05
+    },
+    {
+      "session_id": "17691a6f",
+      "candidate_name": "Candidate",
+      "target_position": "后端工程师",
+      "target_companies": [
+        "字节跳动",
+        "腾讯"
+      ],
+      "question_ids": [
+        "algo-002",
+        "db-002",
+        "algo-003"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.708358+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "095c8f9d",
+      "candidate_name": "Candidate",
+      "target_position": "算法工程师",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002",
+        "py-004",
+        "algo-003"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.715268+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "53496856",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "beh-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "beh-002": "很短"
+      },
+      "follow_ups": {},
+      "scores": {
+        "beh-002": 0.0
+      },
+      "feedback": {
+        "beh-002": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.722439+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "0f1d6265",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "algo-001": "这是一个关于Python的详细回答。GIL是全局解释器锁，它在同一时刻只允许一个线程执行Python字节码。这是为了保护引用计数。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "algo-001": 8.7
+      },
+      "feedback": {
+        "algo-001": "建议从以下角度补充：哈希表+双向链表 O(1)；OrderedDict 简化实现；容量超限时删除最旧的 注意准备好可能的追问。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.736415+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "e0f3ed43",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "beh-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "beh-001": "这是一个完整的回答，涉及多个关键点。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "beh-001": 2.4
+      },
+      "feedback": {
+        "beh-001": "建议从以下角度补充：S: 背景/时间/项目/角色；T: 你面临的具体挑战；A: 你的具体行动 注意准备好可能的追问。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:32:27.749984+00:00",
+      "completed_at": "2026-04-17T14:32:27.761011+00:00",
+      "total_duration_minutes": 0.00018378333333333335
+    },
+    {
+      "session_id": "71545c68",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-001",
+        "db-001",
+        "ind-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.768581+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "a7d047d3",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-003"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.776606+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "bc2a0f6a",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "py-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.784122+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "5059749a",
+      "candidate_name": "Candidate",
+      "target_position": "前端",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.791127+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "eabf923e",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "ml-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:32:27.799137+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "7ae52ece",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [
+        "beh-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "beh-001": "详细且全面的回答"
+      },
+      "follow_ups": {},
+      "scores": {
+        "beh-001": 0.0
+      },
+      "feedback": {
+        "beh-001": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:32:27.818348+00:00",
+      "completed_at": "2026-04-17T14:32:27.831358+00:00",
+      "total_duration_minutes": 0.00021683333333333334
+    },
+    {
+      "session_id": "a31c8ba0",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "db-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "db-002": "差"
+      },
+      "follow_ups": {},
+      "scores": {
+        "db-002": 0.0
+      },
+      "feedback": {
+        "db-002": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:32:27.840426+00:00",
+      "completed_at": "2026-04-17T14:32:27.853863+00:00",
+      "total_duration_minutes": 0.00023233333333333333
+    },
+    {
+      "session_id": "f9d80667",
+      "candidate_name": "Candidate",
+      "target_position": "后端工程师",
+      "target_companies": [
+        "字节跳动",
+        "腾讯"
+      ],
+      "question_ids": [
+        "algo-001",
+        "sys-002",
+        "py-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.655257+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "e17b6983",
+      "candidate_name": "Candidate",
+      "target_position": "算法工程师",
+      "target_companies": [],
+      "question_ids": [
+        "algo-003",
+        "py-004",
+        "sys-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.658442+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "17ceceba",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "soft-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "soft-001": "很短"
+      },
+      "follow_ups": {},
+      "scores": {
+        "soft-001": 0.0
+      },
+      "feedback": {
+        "soft-001": "回答过短，请详细说明。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.660441+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "2ebf1dda",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "algo-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "algo-002": "这是一个关于Python的详细回答。GIL是全局解释器锁，它在同一时刻只允许一个线程执行Python字节码。这是为了保护引用计数。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "algo-002": 8.7
+      },
+      "feedback": {
+        "algo-002": "建议从以下角度补充：过滤非字母数字；转小写统一；双指针或反转比较 注意准备好可能的追问。"
+      },
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.663443+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "99ea75c0",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "py-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "py-002": "这是一个完整的回答，涉及多个关键点。"
+      },
+      "follow_ups": {},
+      "scores": {
+        "py-002": 2.4
+      },
+      "feedback": {
+        "py-002": "建议从以下角度补充：本质是高阶函数；不修改原函数源码；接收函数返回函数 注意准备好可能的追问。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:34:45.666950+00:00",
+      "completed_at": "2026-04-17T14:34:45.668949+00:00",
+      "total_duration_minutes": 3.3316666666666666e-05
+    },
+    {
+      "session_id": "7c536ce0",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "beh-001",
+        "py-004",
+        "py-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.670950+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "b083df59",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "db-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.673454+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "d0cf8941",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "db-002"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.675986+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "c9bfd0fc",
+      "candidate_name": "Candidate",
+      "target_position": "前端",
+      "target_companies": [],
+      "question_ids": [
+        "py-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.676987+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "68d333a9",
+      "candidate_name": "Candidate",
+      "target_position": "测试",
+      "target_companies": [],
+      "question_ids": [
+        "db-001"
+      ],
+      "current_index": 0,
+      "answers": {},
+      "follow_ups": {},
+      "scores": {},
+      "feedback": {},
+      "status": "in_progress",
+      "started_at": "2026-04-17T14:34:45.678987+00:00",
+      "completed_at": null,
+      "total_duration_minutes": 0.0
+    },
+    {
+      "session_id": "a821dc97",
+      "candidate_name": "Candidate",
+      "target_position": "全栈工程师",
+      "target_companies": [],
+      "question_ids": [
+        "ml-001"
+      ],
+      "current_index": 1,
+      "answers": {
+        "ml-001": "详细且全面的回答"
+      },
+      "follow_ups": {},
+      "scores": {
+        "ml-001": 0.0
+      },
+      "feedback": {
+        "ml-001": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:34:45.688027+00:00",
+      "completed_at": "2026-04-17T14:34:45.690028+00:00",
+      "total_duration_minutes": 3.3350000000000004e-05
+    },
+    {
+      "session_id": "76cc4006",
+      "candidate_name": "Candidate",
+      "target_position": "后端",
+      "target_companies": [],
+      "question_ids": [
+        "sys-002"
+      ],
+      "current_index": 1,
+      "answers": {
+        "sys-002": "差"
+      },
+      "follow_ups": {},
+      "scores": {
+        "sys-002": 0.0
+      },
+      "feedback": {
+        "sys-002": "回答过短，请详细说明。"
+      },
+      "status": "completed",
+      "started_at": "2026-04-17T14:34:45.692026+00:00",
+      "completed_at": "2026-04-17T14:34:45.694925+00:00",
+      "total_duration_minutes": 4.831666666666667e-05
+    }
+  ]
+}

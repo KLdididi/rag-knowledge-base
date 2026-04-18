@@ -1,0 +1,29 @@
+[package]
+name = "rag-knowledge-base"
+version = "1.0.0"
+description = "RAG 知识库问答系统 - 桌面应用"
+authors = ["RAG Knowledge Base Team"]
+license = "MIT"
+repository = "https://github.com/KLdididi/rag-knowledge-base"
+edition = "2021"
+rust-version = "1.60"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.5", features = ["dialog-all", "fs-all", "http-all", "notification-all", "path-all", "shell-open"] }
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+anyhow = "1.0"
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4"] }
+rusqlite = { version = "0.30", features = ["bundled"] }
+dirs = "5.0"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
